@@ -69,7 +69,7 @@ void draw()
     }
     phase += 1;
     textSize(11);
-    text((  z + ": " +(int)(tallies[z]/countTally()*10000)/100.0 + "% " ), width * ( (z - 1.5) /12.0), height - 100);
+    text((  z + ": " +(int)(tallies[z]/countTally()*10000)/100.0 + "% " ), width * ( (z - 1.5) /12.0) - 100, height - 100);
     
       
 }
