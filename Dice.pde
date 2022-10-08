@@ -64,17 +64,16 @@ void draw()
   {
     if(phase == 5)
     {
-      System.out.println();
-      phase = 0;
+    0;
     }
     phase += 1;
     textSize(11);
-    text((  z + ": " +(int)(tallies[z]/countTally()*10000)/100.0 + "% " ), width * ( (z - 1.5) /12.0) + 100, height - 100);
+    text((  z + ": " +(int)(tallies[z]/countTally()*10000)/100.0 + "% " ), width * ( (z - 1.5) /12.0), height - 100);
     
       
 }
   textSize(20);
-  text("Total: " + totalCur, width/2 - 22, height  - 100);
+  text("Total: " + totalCur, width/2 - 22, height  - 50);
 }
 void mousePressed()
 {
