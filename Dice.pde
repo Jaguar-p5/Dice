@@ -74,7 +74,7 @@ void draw()
       
 }
   textSize(20);
-  text("Total: " + totalCur, width/2 - 22, height  - 60);
+  text("Total: " + totalCur, width/2 - 22, height  - 80);
 }
 void mousePressed()
 {
